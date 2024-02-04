@@ -83,7 +83,7 @@ Install my-project with npm
 | `numberOfTrials` | `number` | Number of executions before giving the final result |
 
 
-#### _try (sync)
+#### _trySync (sync)
 
 
 | Parameter | Type     | Description                |
@@ -91,7 +91,7 @@ Install my-project with npm
 | `tryFunction` | `() => T` | function which may cause exception |
 
 
-#### _tryMany (sync)
+#### _trySyncMany (sync)
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
