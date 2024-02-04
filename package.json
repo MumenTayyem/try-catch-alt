@@ -1,12 +1,15 @@
 {
   "name": "@mumen/try-catch-alt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An alternative library for try-catch blocks, helps reduce the code and make it cleaner and more readable using anonymous functions.",
   "main": "main.js",
   "types": "main.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MumenTayyem/try-catch-alt.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "files": [
     "/*"
@@ -16,7 +19,7 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "test": "jest --config jestconfig.json",
-    "pack-locally": "cd output && npm pack --pack-destination /Users/mumentayyem/personal/tools",
+    "pack-locally": "npm pack --loglevel verbose --pack-destination /Users/mumentayyem/personal/tools",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
@@ -28,7 +31,9 @@
     "try",
     "catch",
     "error",
-    "handling"
+    "handling",
+    "typescript",
+    "javascript"
   ],
   "author": "Mumen Tayyem",
   "license": "ISC",
