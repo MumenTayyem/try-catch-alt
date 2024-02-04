@@ -4,6 +4,10 @@
   "description": "An alternative library for try-catch blocks, helps reduce the code and make it cleaner and more readable using anonymous functions.",
   "main": "main.js",
   "types": "main.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MumenTayyem/try-catch-alt.git"
+  },
   "files": [
     "/*"
   ],
@@ -13,11 +17,11 @@
     "lint": "tslint -p tsconfig.json",
     "test": "jest --config jestconfig.json",
     "pack-locally": "cd output && npm pack --pack-destination /Users/mumentayyem/personal/tools",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
-    "preversion" : "npm run lint",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "keywords": [
     "try-catch",
