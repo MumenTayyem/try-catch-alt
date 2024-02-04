@@ -45,7 +45,7 @@ catch (Exception ex)
 }
 ```
 
-You can use do this:
+You can just do this:
 ```typescript
 
 const data = _trySync(() => {
