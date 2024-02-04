@@ -59,7 +59,7 @@ if (!data.ok){
 ```
 ## Installation
 
-Install my-project with npm
+Install with npm
 
 ```bash
   npm install @mumen/try-catch-alt
